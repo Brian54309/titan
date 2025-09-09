@@ -1,0 +1,12 @@
+.text {
+  color: rgb(115, 115, 254);
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+
+.text:hover {
+  color: blue; 
+  text-decoration: underline; 
+}

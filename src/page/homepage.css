@@ -1,0 +1,30 @@
+.hover-zoom {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.image-fade {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.image-fade img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-fade::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent 80%, #F3F1FF);
+}
