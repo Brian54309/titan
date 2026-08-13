@@ -4,6 +4,7 @@ import pole from "/pole.jpg";
 import Locations from "../component/Map";
 import vision from "/vision.png";
 import target from "/target.png";
+import Seo from "../component/Seo"
 
 /*
   Same palette/system as HomePage.jsx and Navbar.jsx, sampled from logo.png:
@@ -25,6 +26,11 @@ import target from "/target.png";
 function About() {
   return (
     <div style={{ fontFamily: "'Inter', system-ui, sans-serif", color: "#20233A" }}>
+      <Seo
+        title="Tentang Kami"
+        description="Sejak berdiri, PT Titan Agung Persada telah menjadi mitra terpercaya bagi K-Vision, Nex Parabola, Matrix, dan Broco di seluruh Indonesia."
+        path="/about"
+      />
       <style>{`
         .kt-display { font-family: 'Space Grotesk', system-ui, sans-serif; }
         .kt-mono { font-family: 'IBM Plex Mono', ui-monospace, monospace; letter-spacing: .06em; }

@@ -2,6 +2,8 @@ import React from "react";
 import location from "/location.png";
 import email from "/email.png";
 import phone from "/phone.png";
+import Seo from "../component/Seo"
+import LocalBusinessSchema from "../component/Localbusinesschema"
 
 /*
   Same system as HomePage/About/Map/Navbar, sampled from logo.png.
@@ -54,6 +56,12 @@ function Contact() {
 
   return (
     <>
+      <Seo
+        title="Hubungi Kami"
+        description="Hubungi PT Titan Agung Persada — cabang Jakarta, Surabaya, dan Bali. Chat langsung via WhatsApp atau telepon 021-62312401."
+        path="/contact"
+      />
+      <LocalBusinessSchema />
       <style>{`
         .kt-display { font-family: 'Space Grotesk', system-ui, sans-serif; }
         .kt-mono { font-family: 'IBM Plex Mono', ui-monospace, monospace; letter-spacing: .06em; }

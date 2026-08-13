@@ -11,6 +11,7 @@ import quality from "/quality.png";
 import location from "/location.png";
 import tv from "/tv.png";
 import { Link } from "react-router-dom";
+import Seo from "../component/Seo"
 
 /*
   Palette — sampled directly from logo.png, no separate stylesheet:
@@ -75,6 +76,11 @@ const FEATURES = [
 function HomePage() {
   return (
     <div style={{ fontFamily: "'Inter', system-ui, sans-serif", color: "#20233A" }}>
+      <Seo
+        title="Distributor K-Vision, Nex Parabola, Matrix & Broco"
+        description="PT Titan Agung Persada — distributor resmi perangkat TV berbayar dan komponen elektronik, melayani ribuan mitra di seluruh Indonesia."
+        path="/"
+      />
       {/* Scoped styles — replaces homepage.css. */}
       <style>{`
         .kt-display { font-family: 'Space Grotesk', system-ui, sans-serif; }
