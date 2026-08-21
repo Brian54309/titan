@@ -23,7 +23,7 @@ import { Helmet } from "react-helmet-async";
     index.html is now the single source of truth for those.
 */
 
-const SITE_URL = "https://titan.id";
+const SITE_URL = "https://www.titan.id";
 const SITE_NAME = "PT Titan Agung Persada";
 const DEFAULT_DESCRIPTION =
   "Distributor resmi K-Vision, Nex Parabola, Matrix, dan Broco. Melayani ribuan mitra di seluruh Indonesia dengan sistem logistik yang efisien.";

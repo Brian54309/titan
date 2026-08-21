@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet-async";
   Test after deploying: https://search.google.com/test/rich-results
 */
 
-const SITE_URL = "https://titan.id";
+const SITE_URL = "https://www.titan.id";
 
 const BRANCHES = [
   {

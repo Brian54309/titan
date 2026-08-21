@@ -17,7 +17,7 @@ import { Helmet } from "react-helmet-async";
   than no link at all.
 */
 
-const SITE_URL = "https://titan.id";
+const SITE_URL = "https://www.titan.id";
 
 export default function OrganizationSchema() {
   const jsonLd = {
